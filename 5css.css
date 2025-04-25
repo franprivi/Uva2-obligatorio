@@ -1,0 +1,193 @@
+/* home.html css */
+.color {
+  background-color: #FFCC99;
+  font-family: Arial, sans-serif;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+}
+
+a.nav-link:hover {
+  color: #FFCC99;
+  text-decoration: none;
+  background-color: #301902;
+  padding: 0.625rem;
+  border-radius: 0.313rem;
+  gap: 1.25rem;
+}
+
+.titulo1 {
+  text-align: center;
+  font-family: 'Lucida Sans', sans-serif;
+  background-color: #301902;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 1.875rem;
+  color: white;
+}
+
+.titulo1,
+.tabla {
+  margin-bottom: 0.625rem;
+}
+
+.tabla {
+  font-family: 'Lucida Sans', sans-serif;
+  width: 90%;
+  border-collapse: separate;
+  border-spacing: 1.25rem;
+  margin: 1.875rem auto;
+}
+
+.tabla td,
+.tabla th {
+  border: 1px solid #301902;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 0.625rem;
+  box-shadow: 0.125rem 0.125rem 0.313rem #301902;
+  vertical-align: top;
+}
+
+menu {
+  font-family: 'Lucida Sans', sans-serif;
+  background-color: #301902;
+}
+
+.materias {
+  font-family: 'Lucida Sans', sans-serif;
+  background-color: #301902;
+  color: white;
+  padding: 0.313rem 0.625rem;
+  display: inline-block;
+  margin-bottom: 0.625rem;
+  border-radius: 0.625rem;
+}
+
+footer {
+  font-family: 'Lucida Sans', sans-serif;
+  background-color: #301902;
+  color: white;
+  text-align: center;
+  padding: 0.625rem;
+  position: fixed;
+  width: 10%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 1.875rem;
+}
+
+.vacia {
+  visibility: hidden;
+  border: none;
+}
+
+.tabla2 {
+  width: 60%;
+  text-align: center;
+  margin: 1.875rem auto;
+  border-collapse: separate;
+}
+
+.tabla2 td {
+  border: 1px solid #301902;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 0.625rem;
+  box-shadow: 0.125rem 0.125rem 0.313rem #301902;
+  vertical-align: top;
+}
+
+.formulario {
+  width: 40%;
+  margin: 1.25rem auto;
+  padding: 1.25rem;
+  border-radius: 1.875rem;
+  background-color: #301902;
+  color: white;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.agrandar {
+  width: 18.75rem;
+  height: 2.5rem;
+}
+
+.titulo1,
+.formulario {
+  margin-bottom: 6.25rem;
+}
+
+/* sobremi.html css */
+.Foto {
+  width: 15.625rem;
+  height: 12.5rem;
+  margin: 0 auto;
+  color: #301902;
+  border: 0.313rem solid #301902;
+  border-radius: 1.875rem;
+}
+.Foto img {
+  width: 100%;
+  height: auto;
+  border-radius: 1.875rem;
+}
+
+.tabla3 {
+  width: 60%;
+  text-align: center;
+  margin: 1.875rem auto;
+  border-collapse: separate;
+  border-spacing: 0 2.5rem;
+  table-layout: fixed;
+  border: none;
+}
+
+.informacion p {
+  font-family: 'Lucida Sans', sans-serif;
+  background-color: #301902;
+  color: white;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 1.875rem;
+}
+
+/* materias2025.html css */
+.listamaterias {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Lucida Sans', sans-serif;
+  background-color: #301902;
+  color: white;
+  width: 50%;
+  border-radius: 1.875rem;
+}
+
+.titulo2 {
+  text-align: center;
+  font-family: 'Lucida Sans', sans-serif;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.titulo2,
+.listamaterias {
+  margin-bottom: 0.625rem;
+}
+
+/* avisos.html css */
+.listaavisos {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Lucida Sans', sans-serif;
+  background-color: #301902;
+  color: white;
+  width: 50%;
+  border-radius: 1.875rem;
+}
