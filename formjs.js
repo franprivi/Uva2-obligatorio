@@ -11,3 +11,8 @@ document.getElementById("contactForm").addEventListener("submit", function(event
         event.preventDefault(); // Detiene el envío del formulario
     }
 });
+document.getElementById("contactoForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    alert("¡Gracias por contactarte! Tu mensaje fue enviado correctamente.");
+    this.submit();
+});
